@@ -2,7 +2,7 @@ print('!!!!!This calculator can help you determine your BMI!!!!!')
 weight = float(input('Please enter your weight: '))
 height = float(input('Please enter your height: '))
 
-BMI = weight / height ** 2
+BMI = weight / (height ** 2) * 10000
 
 if BMI >= 40:
     print('You are in obesity class III')
